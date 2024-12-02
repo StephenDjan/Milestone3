@@ -1,0 +1,35 @@
+.admin-dashboard {
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .dashboard-metrics {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  
+  .metric-card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    flex: 1;
+  }
+  
+  .metric-card h3 {
+    margin-bottom: 10px;
+    color: #007bff;
+  }
+  
+  .metric-card p {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .error-message {
+    color: red;
+    font-weight: bold;
+  }
+  

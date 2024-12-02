@@ -1,0 +1,64 @@
+/* profile.css */
+
+/* Basic styling for the profile container */
+.profile-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  /* Profile header styling */
+  .profile-container h2 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for profile details */
+  .profile-details {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .profile-details p {
+    font-size: 18px;
+    padding: 8px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  /* Mobile responsiveness */
+  @media (max-width: 768px) {
+    .profile-container {
+      padding: 15px;
+    }
+  
+    .profile-details p {
+      font-size: 16px;
+    }
+  }
+
+  .login-links {
+    margin-top: 19px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .login-links a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .login-links a:hover {
+    text-decoration: underline;
+  }
+  
+  

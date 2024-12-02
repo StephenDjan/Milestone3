@@ -1,0 +1,121 @@
+/* Global Styles */
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #f0f4f8; /* Light background color */
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #007bff; /* Bootstrap primary color */
+  text-decoration: inherit;
+}
+a:hover {
+  color: #0056b3; /* Darker shade for hover effect */
+}
+
+/* Body Styles */
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  display: block; /* Change from flex to block */
+  background-color: #92a8bd; /* Light background color for the body */
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: #ffffff; /* Navbar background */
+  padding: 10px;
+  position: sticky; /* Sticky navbar */
+  top: 0; /* Sticks to the top */
+  z-index: 1000; /* Ensure it stays above other elements */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+}
+
+.navbar h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  margin: 0 15px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #007bff; /* Bootstrap primary color */
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+/* Form Styles */
+form {
+  margin-top: 20px; /* Space between navbar and form */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center form items */
+  justify-content: center; /* Center form items */
+  margin: 0; /* Remove any margin */
+  padding: 2em; /* Add padding for spacing */
+  border: 1px solid #ccc; /* Optional: border around form */
+  border-radius: 8px; /* Optional: rounded corners */
+  background-color: #ffffff; /* Form background color */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+}
+
+input, select, button {
+  margin: 10px 0; /* Space between form elements */
+  padding: 10px; /* Add padding for input fields */
+  border-radius: 4px; /* Rounded corners for inputs */
+  border: 1px solid #ccc; /* Light border for inputs */
+  width: 100%; /* Full width for inputs */
+}
+
+button {
+  background-color: #007bff; /* Button background color */
+  color: white; /* Button text color */
+  border: none; /* Remove border */
+  cursor: pointer; /* Pointer on hover */
+  transition: background-color 0.3s; /* Transition effect for hover */
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+/* Heading Styles */
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+/* Media Queries for Responsiveness */
+@media (prefers-color-scheme: light) {
+  :root {
+      color: #213547;
+      background-color: #b7e0ec; /* Light color scheme */
+  }
+  a:hover {
+      color: #589cea; /* Light hover color */
+  }
+  button {
+      background-color: #10b1aee3; /* Light button background */
+  }
+}

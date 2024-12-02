@@ -1,0 +1,25 @@
+.admin-entries-container {
+    padding: 20px;
+    text-align: center;
+}
+
+.entries-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.entries-table th,
+.entries-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.entries-table th {
+    background-color: #f4f4f4;
+}
+
+.entries-table tr:hover {
+    background-color: #f1f1f1;
+}
